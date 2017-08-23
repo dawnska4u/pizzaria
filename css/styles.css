@@ -1,0 +1,77 @@
+body{
+	background-color: #58684C;
+}
+
+.intro{
+	background-color: #E5B382;
+}
+
+
+#header{
+	background-color: #E5B382;
+	margin: 10px;
+	box-shadow: -15px 17px 17px 0px rgba(0,0,0,0.92);	
+}
+
+
+#name{
+	color: #C3262D;
+	font-size: 65px;
+	position: relative;
+	font-family: 'Yeseva One', cursive;
+}
+
+
+#tagline{
+	color: #343334;
+	background-color: #E5B382;
+	font-family: 'Merriweather', serif;
+}
+
+
+img{
+	height:110px;
+	margin: 20px;
+	float: left;
+	border-radius: 100;
+}
+
+.guide{
+	border: solid #C3262D;
+	background-color: #E5B382;
+	box-shadow: -15px 17px 17px 0px rgba(0,0,0,0.92);
+	padding: 10px;
+	list-style: none;
+	display: inline-block;
+    width: 150px;
+    height: 10px;
+    margin: 35px;
+}
+
+#today{
+	text-align: center;
+	color:#959E33;
+}
+
+#menu{
+	background-color: #E5B382;
+	box-shadow: -15px 17px 17px 0px rgba(0,0,0,0.92);
+	padding: 20px;
+	margin: 20px;
+
+}
+
+.pizzaName{
+	color: #C3262D;
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+
+}
+
+.line-separator{
+	height:1.5px;
+	background:#717171;
+	width: 304px;
+}
+
+
