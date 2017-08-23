@@ -3,14 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Best Pizza Ever</title>
+	<link rel="stylesheet" href="css/styles.css">
 
 </head>
 <body>
-	<header id class="Intro">
+	<header class="Intro">
 		<div class = "Content"> 
-			<h1 id= "name">Pizzaria La DevLeague</h1>
-			<h2 id = "tagLine"> "Functional Pizza For All!" </h2>
-			<img src="./assets/pizzaMan.jpeg" alt="logo">
+			<div id ="header">
+				<img src="./assets/pizzaMan.jpeg" alt="logo">
+				<h1 id= "name"> Pizzaria La DevLeague</h1>
+				<h2 id = "tagLine"> "Functional Pizza For All!" </h2>
+			</div>
 			<nav id = "topMenu">
 				<li class = "guide"> <a href="#today"> Today's Special</a></li>
 				<li class = "guide"> <a href="#menu"></a> Menu</li>
@@ -32,21 +35,25 @@
 				<p class = "pizzaName">Object of My Desire</p>
 				<p class = "description"> A programmers delight, this classic has string cheese, an array of BBQ meats and 1 special sauce. </p>
 				<p class = "price">19.99</p>
+				<div class="line-separator"></div>
 			</div>
 			<div class = "pizza">
 				<p class = "pizzaName">Four Loop</p>
 				<p class = "description"> Spin your wheel with this quattro cheese mix doused in garlic and truffle oil. Loop there it is! </p>
 				<p class = "price">44.44</p>
+				<div class="line-separator"></div>
 			</div>
 			<div class = "pizza">
 				<p class = "pizzaName">Conditional Love</p>
 				<p class = "description"> This island favorite doesn't give you a chance to say no. Korean bulgogi meat, kim chee, mozzarella cheese and onions always returns true! Boo~Ya! </p>
 				<p class = "price">22.14</p>
+				<div class="line-separator"></div>
 			</div>
 			<div class = "pizza">
 				<p class = "pizzaName">The DOM</p>
 				<p class = "description"> This dynamic blend of Duck, Olives and Mango will change your original thought of what a pizza should be. The only thing constant is change for this bad boy! </p>
 				<p class = "price">16.99</p>
+				<div class="line-separator"></div>
 			</div>
 			<div class = "pizza">
 				<p class = "pizzaName">Conjunction Function</p>
@@ -59,9 +66,9 @@
 		<div class = "content">
 			<h3 class = "sectionTitle"> Subscribe </h3>
 			<p id = "deal"> Sign up for our special deals!</p>
-			<input type="placeholder = "First Name">
-			<input type="placeholder = "Last Name">
-			<input type="placeholder = "email">
+			<input type="text" placeholder= "First Name">
+			<input type="text" placeholder = "Last Name">
+			<input type="text" placeholder = "email">
 		</div>
 	</section>
 	<section id = "visit">
